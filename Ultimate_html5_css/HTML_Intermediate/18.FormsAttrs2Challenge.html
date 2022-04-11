@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Attributes Challenge</title>
+</head>
+<body>
+    <!-- Create a form for Name (size), Job, Email (required), Password(max-minLength) and Comment area(focused) -->
+
+    <form>
+        <!-- Name -->
+        <input type="text" size="12" placeholder="Henrique Camacho">
+        
+        <br><!-- Bad Pratice -->
+
+        <!-- Job -->
+        <input type="text" placeholder="Porn Actor">
+
+        <br><!-- Bad Pratice -->
+
+        <!-- Email -->
+        <input type="email" required placeholder="harry@gmail.com">
+
+        <br><!-- Bad Pratice -->
+
+        <!-- Password -->
+        <input type="password" 
+        minlenght="5" maxlength="10" placeholder="****">
+
+        <br><!-- Bad Pratice -->
+
+        <!-- Comment Area -->
+        <textarea autofocus cols="25" rows="10" placeholder="Text something"></textarea>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms 5 Challenge</title>
+</head>
+<body>
+    <!-- Create a form that allows the user to enter: 
+    Name
+    Job
+    Phone Number
+    Email
+    Password
+    Select Favorite Movie Franchise
+    and submit -->
+
+    <form>
+
+        <!-- Name -->
+        <input type="text" placeholder="Henrique Camacho" required>
+
+        <br><!-- Bad Pratice -->
+
+        <!-- Job -->
+        <input type="text" placeholder="Job">
+        
+        <br><!-- Bad Pratice -->
+
+        <!-- Phone Number -->
+        <input type="number" required placeholder="65992695612" minlength="9" maxlength="11">
+
+        <br><!-- Bad Pratice -->
+
+        <!-- Telephone number -->
+        <input type="number" placeholder="6536631537" minlength="8" maxlength="10">
+
+        <br><!-- Bad Pratice -->
+
+        <!-- Email -->
+        <input type="email" placeholder="harrycamacho@gmail.com" required>
+
+        <br><!-- Bad Pratice -->
+
+        <!--Password-->
+        <input type="password" placeholder="Type your Password" required >
+
+        <br><!-- Bad Pratice -->
+
+        <input list="movie-list">
+        <datalist id="movie-list">
+            <option value="Iron Man"></option>
+            <option value="Hythicker Guide to the Galaxy"></option>
+            <option value="28 days later"></option>
+            <option value="Moon"></option>
+            <option value="Another Earth"></option>
+        </datalist>
+
+        <br><!-- Bad Pratice -->
+
+        <input type="checkbox">Monica Mattos
+        <input type="checkbox">Anne Midori
+        <input type="checkbox">Fernandinha Fernandez
+
+        <br><!-- Bad Pratice -->
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+        <!-- Submit -->
+        <button>Another Submit button</button>
+
+    </form>
+
+</body>
+</html>
