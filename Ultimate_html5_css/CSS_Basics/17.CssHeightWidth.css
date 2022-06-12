@@ -1,0 +1,8 @@
+article{
+    /*No scroll bars*/
+    max-width: 200px;
+    height: 400px;
+    background-color: aqua;
+}
+/*Max-Width --> Small screens*/
+/*Min-width --> Bigger screens*/
