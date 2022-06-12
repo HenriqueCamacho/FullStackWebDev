@@ -1,0 +1,27 @@
+/*section{ One value, all sizes
+    border-style:groove ;
+}*/
+
+p{
+    border-style: double;
+    border-width: 9px;
+}
+
+h1{/*More specific*/
+    border-style: solid;
+    border-color: darkmagenta;
+    border-width: 10px;
+    border-bottom-color: darkturquoise;
+    border-bottom-style: dotted;
+}
+
+/*Border Shorthand*/
+section{/*Clock direction, top, right, bottom, left*/
+    /*border-style: solid dashed solid dashed;*/
+    /*Or Top, right and left, bottom
+    border-style: solid dashed solid;*/
+    /*Or Top and bottom, left and right
+    border-style: dashed solid*/
+    border: red solid 6px;/* Fuck the order*/
+    border-radius: 15px;/*Can be used with images to*/
+}

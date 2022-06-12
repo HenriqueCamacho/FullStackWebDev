@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(39, 6, 116);
+}
+section{ 
+    color: #ffffff;
+}
+section p span{ /*As specific as possible*/
+    color: red;
+}

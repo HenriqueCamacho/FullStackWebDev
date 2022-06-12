@@ -1,0 +1,17 @@
+/* Rgb Color*/
+h1{
+    color: rgba(60, 121, 200, 0.849)
+}
+
+/* HSL 
+last 2 args (%)*/
+h2{
+  color: hsla(150, 50%, 39%, 0.788);  
+}
+
+/*Hexadecimal*/
+/* Red Green Blue Opacity(transparency)*/
+
+h3{
+    color: #351198c7;
+}

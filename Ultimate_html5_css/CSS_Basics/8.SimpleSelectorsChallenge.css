@@ -1,0 +1,29 @@
+/* Style the elements by their name, class, 
+id and group them as well*/
+h1{
+    color: rgb(179, 24, 145);
+}
+
+#someid{
+    background-color: darkorange;
+}
+
+.someclass{
+    background-color: brown;
+}
+
+/*Grouping elements*/
+.someclass, #someid {
+    color: blue;
+}
+
+a{
+    border: 4px red dotted;
+    /*Underline goes away*/
+    text-decoration: none;
+}
+
+*{
+    padding: 2px;
+    margin: 10px;
+}

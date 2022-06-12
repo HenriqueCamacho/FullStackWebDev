@@ -1,0 +1,35 @@
+/* Element selector*/
+body{
+    background-color: #aaa;
+}
+
+/*Class Selector*/
+/*.main-heading{
+    color: #ffffff;
+}*/
+
+/*.heading{
+    color: white;
+}*/
+
+
+/*Id selector*/
+/*#main-paragraph{
+    color:bisque
+}*/
+
+/*Grouping Selector use colon*/
+/*.heading, #main-paragraph{
+    color: brown;
+}*/
+
+/*Universal Selector --> Be carefull, not everyone use it*/
+/*Reset everything in a web page*/
+/*Body may not apply to some of it's children
+while * applies, background color for instance*/
+/*Body is more specific than * tho*/
+*{
+    color:blueviolet;
+    padding: 0;
+    margin: 0;
+}

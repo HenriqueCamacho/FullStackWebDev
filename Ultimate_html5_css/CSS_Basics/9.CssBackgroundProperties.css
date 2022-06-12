@@ -1,0 +1,11 @@
+body{
+    /*background-color: darkcyan;*/
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53QoBey5ctCgO7ORsLgvT4twetAIOZoSCAOPE0nt1Dky3hOw5dC8p8ILk5WhHupalJrI&usqp=CAU');
+background-repeat: /*repeat-y;*/no-repeat;
+/*background-attachment: fixed;/*Keep fixed when scroll down*/
+background-size: cover;
+background-position: right;/*Always show right when collapse*/
+}
+/*Image part of style include in css*/
+
+/*Image part of main content include in html*/

@@ -1,0 +1,15 @@
+/*Insert an image and give it colored borders*/
+.shaolins{
+    border-radius: 10px;
+    width: 600px;
+    height: 480px;
+    border: red 5px solid;
+}
+.other-image{
+    background-image: url('https://images2.fanpop.com/image/photos/9400000/MK-Shaolin-Monks-mortal-kombat-9459349-1280-1024.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 600px;
+    border: blue 5px solid;
+}
