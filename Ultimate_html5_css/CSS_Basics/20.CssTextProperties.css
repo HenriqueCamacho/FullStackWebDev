@@ -1,0 +1,15 @@
+p{
+    color: blue;      
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+    /*text-indent: 50px;*/
+    letter-spacing: 2px;
+    line-height: 1.6;
+    /*direction: rtl;*/
+    /*word-spacing: 10px;*/
+    text-shadow: 20px 2px 2px grey;
+}
+
+a{
+    text-decoration: none;
+}

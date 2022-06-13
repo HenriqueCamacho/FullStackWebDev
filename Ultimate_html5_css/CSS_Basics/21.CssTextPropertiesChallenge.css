@@ -1,0 +1,19 @@
+/*Style the p tag by giving it a back
+ground color, color, identation, padding,
+margin, shadow and alignment*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    background-color: black;
+    color: white;
+    text-indent: 7px;
+    padding: 15px 30px;
+    margin: 15px 30px;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000;
+}
