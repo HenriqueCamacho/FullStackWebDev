@@ -1,0 +1,18 @@
+/*Google Fonts*/
+/*Fonts awesome*/
+
+p{
+    font-family: Ubuntu, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    /*More is bolder*/
+    font-weight:normal;
+}
+
+/*It's a font*/
+/*Some icons have preset value,
+to change weight maybe we need a lighter
+version of the bicycle*/
+i{
+    font-size: 100px;
+}

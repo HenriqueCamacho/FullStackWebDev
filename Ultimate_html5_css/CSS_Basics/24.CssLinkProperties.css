@@ -1,0 +1,31 @@
+a{
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    box-shadow: 3px 2px 2px lawngreen;
+}
+
+/*4 states of link*/
+/*Visited Hover Active(Being Clicked)*/
+
+/*Pseudo Classes Selectors not Declaration*/
+/*Unvisited*/
+a:link{
+    color: lawngreen;
+}
+
+/*a:visited{
+    color: blue;
+}*/
+
+a:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+/*Active state*/
+/*It's Moving*/
+a:active{
+  box-shadow: 2px 2px 3px lawngreen;  
+}
