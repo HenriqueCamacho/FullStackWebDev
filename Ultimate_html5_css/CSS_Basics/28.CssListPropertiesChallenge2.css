@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    width: 200px;
+    background-color: hsl(69, 79%, 15%);
+    padding: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+li{
+    background-color: rgb(83, 105, 46); 
+    color: white;
+    list-style: none;
+    text-align: center;
+    margin:5px;
+    padding: 6px;
+}
