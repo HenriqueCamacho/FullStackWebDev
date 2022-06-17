@@ -1,0 +1,33 @@
+table{
+    border-collapse: collapse;
+    width: 400px;
+}
+
+table, th, td{
+    border-bottom: 0.8px solid red;
+}
+
+th, td{
+    /*height: 150px;
+    vertical-align: bottom;/*Center is the default one*/
+    text-align: left;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: #aaa;
+    color: #fff;
+}
+
+tr:nth-child(odd){
+    background-color: lightgreen;
+}
+
+tr:nth-child(even){
+    background-color: lightcoral;
+    color: white;
+}
+
+tr:nth-child(1){
+    background-color: transparent;
+}
