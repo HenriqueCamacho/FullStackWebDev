@@ -1,0 +1,21 @@
+/*set smaller dimensions for the pic and apply fixed position.
+The p tag should be default position  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    /*top: 40%;
+    left: 0.1%;*/
+    margin-top: -250px;
+}
+
+p{
+    margin: 250px ;/*Like and ad on the left*/
+}
