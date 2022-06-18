@@ -1,0 +1,15 @@
+div{
+    display: inline;
+}
+span{
+    display: block;
+}
+
+h1{
+    display: none; /*It dissapears, not like visibility that only hides*/
+}
+
+p{
+    visibility: hidden;/*These 2 the same, but visible only hides*/
+}
+
