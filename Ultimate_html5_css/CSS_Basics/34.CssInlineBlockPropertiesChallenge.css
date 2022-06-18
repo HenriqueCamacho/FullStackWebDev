@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Nav{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    list-style: none;
+}
+
+#Nav li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+a{
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+a:hover,
+a:visited{
+    background-color: rgb(96, 116, 119);
+}
