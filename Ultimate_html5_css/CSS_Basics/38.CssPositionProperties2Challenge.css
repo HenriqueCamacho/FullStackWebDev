@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+}
+
+img{
+    position: absolute;
+    z-index: -1;
+}
+
+h2{
+    text-align: center;
+    color: black;/* white;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+}
+
+p.stick, h1.stick{
+    top: 50px;/*Usually top 0*/
+    position: /*fixed;*/ sticky;
+    position: -webkit-sticky;
+    background-color: limegreen;
+}
